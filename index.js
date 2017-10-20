@@ -1,7 +1,7 @@
-var animal = 'dog'
+var animal = 'dog';
 
 function myAnimal() {
-  return animal
+  return animal;
 }
 
 function yourAnimal(animal) {
@@ -9,21 +9,21 @@ function yourAnimal(animal) {
   // and the above function both pass?
   // P.S.: You can't just hard-code 'cat' below
   var animal = 'cat'
-  return animal
+  return animal;
 }
 
 function add2(n) {
   const two = 2
-  return n + two
+  return n + two;
 
   // Feel free to move things around!
 }
 
 var funkyFunction = function() {
   return function() {
-    return "FUNKY!"
-  }
-}
+    return "FUNKY!";
+  };
+};
 
 // We want to set theFunk equal to "FUNKY!" using our funkyFunction.
 // NOTE: you only need to modify the code below this line.
